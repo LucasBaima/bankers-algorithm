@@ -1,0 +1,27 @@
+
+Implementacao 5 - Algoritmo do Banqueiro
+Disciplina: Infraestrutura de Software
+
+Ambiente de teste: Linux-mint
+
+1. Compilacao
+Comando: make clean && make
+Resultado: compilacao realizada sem erros.
+
+2. Execucao principal
+Comando: ./banker 10 5 7
+Resultdo: arquivo result.txt gerado corretamente.
+
+3. Validacao dos comandos
+RQ: solicitacoes processadas.
+RL: liberacao de recursos processada.
+*: estado das matrizes exibido.
+
+4. Tratamento de erros
+Sem argumentos: erro identificado.
+Quantidade incorreta de recursos: erro identificado.
+Argumento nao numerico: erro identificado.
+
+5. Verificacao de seguranca
+Solicitacoes inseguras foram negadas.
+Limites de recursos foram respeitados.
